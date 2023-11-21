@@ -15,8 +15,9 @@ const Login = () => {
       const headers = {
         "Content-Type": "application/json",
       };
+      axios.defaults.withCredentials=true;
       axios
-        .post(`https://mern-school.vercel.app/`, data, {
+        .post(`https://mern-school.vercel.app/`, {
           headers: headers,
         })
         .then((response) => {
