@@ -16,7 +16,7 @@ const Login = () => {
         "Content-Type": "application/json",
       };
       axios
-        .post(`${baseApiURL()}/${selected.toLowerCase()}/auth/login`, data, {
+        .post(`https://mern-school.vercel.app/`, data, {
           headers: headers,
         })
         .then((response) => {
