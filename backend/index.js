@@ -32,5 +32,5 @@ app.get('/', (req, res) => {
 
 })
 app.listen(port, () => {
-  console.log(`Server Listening On https://mern-school.vercel.app/`);
+  console.log(`Server Listening On http://localhost:${port}`);
 });
