@@ -52,4 +52,5 @@ The College Management System is a MERN Stack-based system with four different l
 
 -Parent Credentials:- LoginId :- 13 Password :- bhavya
 
-
+## Demo Link
+https://schoolbase-management-system.netlify.app/
