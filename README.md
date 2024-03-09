@@ -1,6 +1,6 @@
-# College Management System
+# School Management System
 
-The College Management System is a MERN Stack-based system with four different login portals for students, faculty, parents and admin.
+The School Management System is a MERN Stack-based system with four different login portals for students, faculty, parents and admin.
 
 ## Tech Stack
 
